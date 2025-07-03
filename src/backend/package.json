@@ -1,0 +1,32 @@
+{
+  "name": "invoice-generator-backend",
+  "version": "1.0.0",
+  "description": "Backend API for invoice generation with DOCX template processing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-validator": "^7.0.1",
+    "docxtemplater": "^3.39.0",
+    "pizzip": "^3.1.4",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "invoice",
+    "docx",
+    "pdf",
+    "template",
+    "generator"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
